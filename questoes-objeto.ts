@@ -138,6 +138,7 @@ function question5() :void{
   const result = people.map((person) => ( { name: person.name ,city: person.address.city}));
   console.log(result);
 }
+//vai imprimir uma pessoa a menos porque foi removido no metodo acima, a pessoa do id=5
 question5();
 
 
